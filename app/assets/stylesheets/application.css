@@ -4,8 +4,3 @@
  *= require foundation_and_overrides
  *= require font-awesome
  */
- @import "materialize/components/color";
- $primary-color: color("blue", "lighten-2") !default;
- @import 'materialize';
-
- @import "materialize/extras/nouislider";

@@ -1,3 +1,11 @@
+@import "materialize/components/color";
+$primary-color: color("blue", "lighten-2") !default;
+@import 'materialize';
+
+@import "materialize/extras/nouislider";
+
+
+
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
