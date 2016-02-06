@@ -4,3 +4,26 @@
  *= require foundation_and_overrides
  *= require font-awesome
  */
+
+ .codatitle {
+     font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 30px;
+     text-decoration: none;
+     max-width: 1250px;
+     width: 100%;
+     padding: 1.5rem 1.8rem;
+     margin: 0 auto;
+     color:black;
+ }
+
+ .codatitle span > small {
+    font-size: 0.6em;
+    display: inline-block;
+    margin-top: 0;
+    width: 5px;
+    height: 1em;
+
+    
+}
