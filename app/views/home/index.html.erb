@@ -1,28 +1,29 @@
 <div class="row">
     <div class="small-12 columns text-center">
-        <h1>Welcome to Hangman!</h1>
+        <h1 style="font-family: 'Satisfy', cursive; text-align:center;">Welcome to Hangman!</h1>
 
         <br />
     </div>
 </div>
 
 <div class="row">
-    <div class="card-panel hoverable small-12 <%= current_game.present? && !current_game.finished? ? 'medium-6' : '' %> columns">
+    <div class="hoverable small-12 <%= current_game.present? && !current_game.finished? ? 'medium-6' : '' %> columns">
         <%= link_to new_game_path, :class => 'button expand' do %>
             <i class="fa fa-play"> New game</i>
         <% end %>
     </div>
 
     <% if current_game.present? && !current_game.finished? %>
-        <div class="card-panel hoverable small-12 medium-6 columns">
+        <div class="hoverable small-12 medium-6 columns">
             <%= link_to game_path, :class => 'button expand' do %>
                 <i class="fa fa-refresh"> Continue game</i>
             <% end %>
         </div>
     <% end %>
+    <br /><br /><br /><br />
     <div class="">
-      <p style="font-family: 'Satisfy', cursive;">"Hey Man, hit those 'buts', and see if you can find the right word.
-        Be careful though, if you fail to do so within the required attemps;
+      <p style="font-family: 'Satisfy', cursive; text-align:left;">"Hey Man, hit those 'buts', and see if you can find the right word.</p>
+          <p style="font-family: 'Satisfy', cursive; text-align:right;">Be careful though, if you fail to do so within the required attemps;
         You'll be Hang-Man."</p>
     </div>
 </div>
