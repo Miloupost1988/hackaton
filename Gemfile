@@ -23,3 +23,6 @@ gem 'foundation-rails'
 
 # Font Awesome
 gem 'font-awesome-rails'
+
+# Gem Materialize
+gem 'materialize-sass'
