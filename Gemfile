@@ -26,3 +26,5 @@ gem 'font-awesome-rails'
 
 # Gem Materialize
 gem 'materialize-sass'
+
+gem 'rails_12factor'
