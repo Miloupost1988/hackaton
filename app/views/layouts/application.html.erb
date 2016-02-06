@@ -6,21 +6,8 @@
 
     <title><%= content_for?(:title) ? yield(:title) : "Codaisseur Hackaton 2016" %></title>
 
-
-
-
-    <link href="/assets/foundation_and_overrides.css?body=1" media="screen" rel="stylesheet" />
-    <link href="/assets/games.css?body=1" media="screen" rel="stylesheet" />
-    <link href="/assets/home.css?body=1" media="screen" rel="stylesheet" />
-    <link href="/assets/application.css?body=1" media="screen" rel="stylesheet" />
-    <link href="/assets/font-awesome.css?body=1" media="screen" rel="stylesheet" />
-        <script src="/assets/vendor/modernizr.js?body=1"></script>
-
-
-
-
-
-  
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
   </head>
 
