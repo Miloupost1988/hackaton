@@ -14,5 +14,7 @@
 //= require jquery_ujs
 //= require foundation
 //= require_tree .
+//= require materialize-sprockets
+//= require materialize/extras/nouislider
 
 $(function(){ $(document).foundation(); });
